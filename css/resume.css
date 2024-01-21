@@ -1,0 +1,181 @@
+/*!
+ * Start Bootstrap - Resume v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+body {
+  font-family: 'Open Sans', serif;
+  padding-top: 54px;
+  background-color: #121212; /* 深色背景 */
+  color: #ffffff; /* 白色文字 */ }
+
+@media (min-width: 992px) {
+  body {
+
+    padding-top: 0;
+    padding-left: 17rem; } }
+
+h1,
+h2,
+h3,
+h4,
+h5
+ {
+  font-family: 'Saira Extra Condensed', serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #007bff; }
+h6 {
+  font-family: 'Saira Extra Condensed', serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff; }
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem; }
+
+h2 {
+  font-size: 3.5rem; }
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Saira Extra Condensed', serif;
+  font-size: 1.35rem; }
+
+.list-social-icons a {
+  color: #495057; }
+  .list-social-icons a:hover {
+    color: #007bff; }
+  .list-social-icons a .fa-lg {
+    font-size: 1.75rem; }
+
+.list-icons {
+  font-size: 3rem; }
+  .list-icons .list-inline-item i:hover {
+    color: #007bff; }
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 600;
+  text-transform: uppercase; }
+
+@media (min-width: 992px) {
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh; }
+    #sideNav .navbar-brand {
+      display: flex;
+      margin: auto auto 0;
+      padding: 0.5rem; }
+      #sideNav .navbar-brand .img-profile {
+        max-width: 10rem;
+        max-height: 10rem;
+        border: 0.2rem solid #f8f9fa; }
+    #sideNav .navbar-collapse {
+      display: flex;
+      align-items: flex-start;
+      flex-grow: 0;
+      width: 100%;
+      margin-bottom: auto; }
+      #sideNav .navbar-collapse .navbar-nav {
+        flex-direction: column;
+        width: 100%; }
+        #sideNav .navbar-collapse .navbar-nav .nav-item {
+          display: block; }
+          #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+            display: block; } }
+
+section.resume-section {
+  border-bottom: 1px solid #dee2e6;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important; }
+  section.resume-section .resume-item .resume-date {
+    min-width: none; }
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh; }
+    section.resume-section .resume-item .resume-date {
+      min-width: 18rem; } }
+
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important; } }
+
+.bg-primary {
+  background-color: #1c1b1a !important; }
+
+.text1-primary {
+    background-image: linear-gradient(to right, #0024ff, #02d1ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+
+}
+
+.h1-primary {
+    background-image: linear-gradient(to right, #0024ff, #02d1ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    font-size: 48px;
+
+}
+
+
+
+.gradient-text {
+    background-image: linear-gradient(to right, #0024ff, #02d1ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 72px;
+    font-weight: bold;
+}
+
+a {
+  color: #007bff; }
+  a:hover, a:focus, a:active {
+    color: #d7b377; }
+
+.img-profile {
+  max-width: 300px; /* 確保圖片不會超過其容器的寬度 */
+  height: auto; /* 保持圖片的原始比例 */
+  border-radius: 10px; /* 圓角的半徑，您可以根據需要調整此值 */
+  margin-right: 20px; /* 在圖片和文字之間添加一些空間 */
+
+}
+
+.profile-container {
+    display: flex; /* 啟用 flexbox */
+    align-items: center; /* 垂直居中 */
+}
+
+.text-container {
+    /* 在這裡可以添加任何需要的樣式，例如對齊方式或邊距 */
+      margin-left: 20px; /* 在圖片和文字之間添加一些空間 */
+
+}
+
+@media (max-width: 768px) {
+    .profile-container {
+        flex-direction: column; /* 堆叠方向改为垂直 */
+        text-align: center; /* 文字居中 */
+    }
+
+    .img-profile {
+        margin-right: 0; /* 移动端不需要右边距 */
+        margin-bottom: 20px; /* 在图片和文字之间添加一些空间 */
+    }
+}
+
