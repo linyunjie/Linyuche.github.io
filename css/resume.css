@@ -6,7 +6,7 @@
 body {
   font-family: 'Open Sans', serif;
   padding-top: 54px;
-  background-color: #121212; /* 深色背景 */
+  background-color: #232323; /* 深色背景 */
   color: #ffffff; /* 白色文字 */ }
 
 @media (min-width: 992px) {
@@ -24,7 +24,7 @@ h5
   font-family: 'Saira Extra Condensed', serif;
   font-weight: 700;
   text-transform: uppercase;
-  color: #007bff; }
+  color: #22b6f6; }
 h6 {
   font-family: 'Saira Extra Condensed', serif;
   font-weight: 700;
@@ -114,7 +114,7 @@ section.resume-section {
   background-color: #1c1b1a !important; }
 
 .text1-primary {
-    background-image: linear-gradient(to right, #0024ff, #02d1ff);
+    background-image: linear-gradient(to right, #00ff91, #76efed);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -123,7 +123,7 @@ section.resume-section {
 }
 
 .h1-primary {
-    background-image: linear-gradient(to right, #0024ff, #02d1ff);
+    background-image: linear-gradient(to right, #00ff91, #76efed);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -135,7 +135,7 @@ section.resume-section {
 
 
 .gradient-text {
-    background-image: linear-gradient(to right, #0024ff, #02d1ff);
+    background-image: linear-gradient(to right, #00ff91, #76efed);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
