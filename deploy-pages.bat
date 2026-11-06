@@ -7,7 +7,7 @@ git add index.html css/resume.css js/resume.js js/resume.min.js favicon.svg post
 if errorlevel 1 goto fail
 
 echo === Creating commit ===
-git commit -m "Switch site theme to dark mode."
+git commit -m "Add colorful icons across skills and sections."
 if errorlevel 1 (
   echo No new commit created. Continuing to push...
 )

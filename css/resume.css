@@ -213,8 +213,61 @@ section.resume-section {
 
 .section-icon {
   margin-right: 0.45rem;
-  color: var(--accent);
 }
+
+/* Colorful icons (brand / semantic) */
+.fa-html5 { color: #e44d26; }
+.fa-css3 { color: #264de4; }
+.fa-android { color: #3ddc84; }
+.fa-windows { color: #00a4ef; }
+.fa-linux { color: #fcc624; }
+.fa-facebook-square { color: #1877f2; }
+.fa-github-square { color: #e6edf3; }
+.fa-database { color: #4db6ac; }
+.fa-file-code-o { color: #8892bf; }
+.fa-flask { color: #41b883; }
+.fa-code { color: #f7df1e; }
+.fa-desktop { color: #90caf9; }
+.fa-server { color: #81d4fa; }
+.fa-users { color: #64b5f6; }
+.fa-user { color: #64b5f6; }
+.fa-envelope { color: #42a5f5; }
+.fa-inbox { color: #29b6f6; }
+.fa-hdd-o { color: #ffb74d; }
+.fa-terminal { color: #a5d6a7; }
+.fa-shield { color: #ff7043; }
+.fa-lock { color: #ef5350; }
+.fa-exchange { color: #26c6da; }
+.fa-sitemap { color: #7e57c2; }
+.fa-random { color: #ab47bc; }
+.fa-wrench { color: #ffa726; }
+.fa-cog,
+.fa-cogs { color: #90a4ae; }
+.fa-plug { color: #00979d; }
+.fa-laptop { color: #c6e870; }
+.fa-wifi { color: #29b6f6; }
+.fa-download { color: #66bb6a; }
+.fa-print { color: #78909c; }
+.fa-certificate { color: #ffca28; }
+.fa-trophy { color: #ffd54f; }
+.fa-star { color: #ffc107; }
+.fa-building { color: #8d6e63; }
+.fa-language { color: #26a69a; }
+.fa-folder-open { color: #ffb74d; }
+.fa-briefcase { color: #7cb8ff; }
+.fa-graduation-cap { color: #ffb347; }
+.fa-tasks { color: #4fc3f7; }
+.fa-info-circle { color: #4dd0e1; }
+.fa-bar-chart { color: #42a5f5; }
+.fa-file-excel-o { color: #217346; }
+.fa-file-pdf-o { color: #e53935; }
+.fa-comment { color: #06c755; }
+.fa-clock-o { color: #ffb300; }
+.fa-cube { color: #7e57c2; }
+.fa-external-link { color: #5ec4e0; }
+.ic-js { color: #f7df1e !important; }
+.ic-python { color: #3776ab !important; }
+.ic-php { color: #8892bf !important; }
 
 /* Hero / about */
 .about-block {
@@ -285,14 +338,14 @@ section.resume-section {
 }
 
 .social-links a {
-  color: var(--muted);
   font-size: 1.55rem;
   text-decoration: none;
+  line-height: 1;
 }
 
 .social-links a:hover {
-  color: var(--accent);
   text-decoration: none;
+  opacity: 0.85;
 }
 
 /* Experience / education entries */
@@ -366,7 +419,6 @@ section.resume-section {
 
 .skill-group h3 .fa {
   margin-right: 0.35rem;
-  color: var(--accent);
 }
 
 .skill-tags {
@@ -393,7 +445,6 @@ section.resume-section {
 
 .skill-tags li .fa {
   font-size: 1.15rem;
-  color: var(--accent);
 }
 
 .work-list {
@@ -414,7 +465,6 @@ section.resume-section {
 
 .work-list li .fa {
   margin-top: 0.2rem;
-  color: var(--accent);
   font-size: 1.15rem;
   flex: 0 0 auto;
 }
@@ -462,7 +512,6 @@ section.resume-section {
 
 .plain-list.icon-list li .fa {
   margin-top: 0.2rem;
-  color: var(--accent);
   font-size: 1.2rem;
   flex: 0 0 auto;
 }
@@ -663,7 +712,6 @@ section.resume-section {
 .detail-card h3 .fa,
 .detail-kicker .fa {
   margin-right: 0.35rem;
-  color: var(--accent);
 }
 
 .detail-link .fa {
