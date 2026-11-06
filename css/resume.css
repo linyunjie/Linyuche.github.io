@@ -210,6 +210,11 @@ section.resume-section {
   letter-spacing: 0.03em;
 }
 
+.section-icon {
+  margin-right: 0.45rem;
+  color: var(--accent);
+}
+
 /* Hero / about */
 .about-block {
   display: grid;
@@ -358,34 +363,59 @@ section.resume-section {
   color: var(--text);
 }
 
+.skill-group h3 .fa {
+  margin-right: 0.35rem;
+  color: var(--accent);
+}
+
 .skill-tags {
   display: flex;
   flex-wrap: wrap;
   gap: 0.55rem;
-  margin: 0;
+  margin: 0 0 0.85rem;
   padding: 0;
   list-style: none;
 }
 
 .skill-tags li {
-  padding: 0.4rem 0.8rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.85rem;
   border: 1px solid var(--line);
   background: var(--accent-soft);
   color: #0f3f4f;
-  font-size: 1.02rem;
-  font-weight: 600;
+  font-size: 1.05rem;
+  font-weight: 700;
   line-height: 1.4;
+}
+
+.skill-tags li .fa {
+  font-size: 1.15rem;
+  color: var(--accent);
 }
 
 .work-list {
   margin: 0.4rem 0 0;
-  padding-left: 1.3rem;
+  padding: 0;
+  list-style: none;
   color: var(--muted);
   font-size: 1.08rem;
 }
 
 .work-list li {
-  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.55rem;
+  margin-bottom: 0.65rem;
+  font-weight: 600;
+}
+
+.work-list li .fa {
+  margin-top: 0.2rem;
+  color: var(--accent);
+  font-size: 1.15rem;
+  flex: 0 0 auto;
 }
 
 /* Simple lists */
@@ -415,6 +445,25 @@ section.resume-section {
   width: 0.5rem;
   height: 0.5rem;
   background: var(--accent);
+}
+
+.plain-list.icon-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.55rem;
+  padding-left: 0;
+  font-weight: 600;
+}
+
+.plain-list.icon-list li::before {
+  display: none;
+}
+
+.plain-list.icon-list li .fa {
+  margin-top: 0.2rem;
+  color: var(--accent);
+  font-size: 1.2rem;
+  flex: 0 0 auto;
 }
 
 /* Work / portfolio */
@@ -462,9 +511,13 @@ section.resume-section {
 }
 
 .work-item-body p {
-  margin: 0 0 0.85rem;
+  margin: 0 0 0.75rem;
   color: var(--muted);
   font-size: 1.05rem;
+}
+
+.work-item-body .skill-tags {
+  margin-bottom: 0.85rem;
 }
 
 .work-item-body .btn {
@@ -592,6 +645,16 @@ section.resume-section {
   font-size: 1.28rem;
   font-weight: 700;
   color: var(--text);
+}
+
+.detail-card h3 .fa,
+.detail-kicker .fa {
+  margin-right: 0.35rem;
+  color: var(--accent);
+}
+
+.detail-link .fa {
+  margin-right: 0.3rem;
 }
 
 .detail-media {
