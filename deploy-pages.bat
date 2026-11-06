@@ -7,7 +7,7 @@ git add index.html css/resume.css js/resume.js js/resume.min.js favicon.svg post
 if errorlevel 1 goto fail
 
 echo === Creating commit ===
-git commit -m "Fix sidebar scroll and unify detail page styling."
+git commit -m "Enlarge fonts and contrast for easier reading."
 if errorlevel 1 (
   echo No new commit created. Continuing to push...
 )

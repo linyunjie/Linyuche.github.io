@@ -1,7 +1,7 @@
 (function ($) {
   "use strict";
 
-  var mobileNavOffset = 64;
+  var mobileNavOffset = 76;
 
   function getScrollOffset() {
     return window.matchMedia("(min-width: 992px)").matches ? 8 : mobileNavOffset;
