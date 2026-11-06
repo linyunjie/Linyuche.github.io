@@ -3,11 +3,11 @@ chcp 65001 >nul
 cd /d "%~dp0"
 
 echo === Staging changes ===
-git add index.html css/resume.css js/resume.js js/resume.min.js
+git add index.html css/resume.css js/resume.js js/resume.min.js favicon.svg post1.html post2.html post3.html
 if errorlevel 1 goto fail
 
 echo === Creating commit ===
-git commit -m "Restyle site as a practical IT professional resume."
+git commit -m "Fix sidebar scroll and unify detail page styling."
 if errorlevel 1 (
   echo No new commit created. Continuing to push...
 )
