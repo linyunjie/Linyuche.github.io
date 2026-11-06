@@ -1,14 +1,15 @@
 :root {
-  --sidebar: #1a2332;
-  --sidebar-text: #e8eef5;
+  --sidebar: #10161f;
+  --sidebar-text: #d7e0ea;
   --sidebar-active: #ffffff;
-  --page: #f5f7fa;
-  --surface: #ffffff;
-  --text: #111827;
-  --muted: #374151;
-  --line: #d0d7e0;
-  --accent: #0f5f78;
-  --accent-soft: #e5f2f6;
+  --page: #0b0f14;
+  --surface: #151b24;
+  --surface-raised: #1c2430;
+  --text: #f3f6fa;
+  --muted: #c2ccd8;
+  --line: #2a3442;
+  --accent: #5ec4e0;
+  --accent-soft: #1a2b36;
   --sidebar-width: 17.5rem;
   --topbar-height: 4rem;
 }
@@ -52,7 +53,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #0a4557;
+  color: #9adcf0;
 }
 
 img {
@@ -85,7 +86,7 @@ img {
 #sideNav .nav-link.active {
   color: var(--sidebar-active) !important;
   background: rgba(255, 255, 255, 0.08);
-  border-left-color: #5eb8d4;
+  border-left-color: var(--accent);
   text-decoration: none;
 }
 
@@ -234,7 +235,7 @@ section.resume-section {
   height: 160px;
   object-fit: cover;
   border: 1px solid var(--line);
-  background: #fff;
+  background: var(--surface);
 }
 
 .about-name {
@@ -382,9 +383,9 @@ section.resume-section {
   align-items: center;
   gap: 0.4rem;
   padding: 0.45rem 0.85rem;
-  border: 1px solid var(--line);
+  border: 1px solid #314556;
   background: var(--accent-soft);
-  color: #0f3f4f;
+  color: #dff4fb;
   font-size: 1.05rem;
   font-weight: 700;
   line-height: 1.4;
@@ -486,7 +487,7 @@ section.resume-section {
 
 .work-item {
   border: 1px solid var(--line);
-  background: #fff;
+  background: var(--surface-raised);
   overflow: hidden;
 }
 
@@ -496,7 +497,7 @@ section.resume-section {
   aspect-ratio: 16 / 10;
   object-fit: cover;
   border-bottom: 1px solid var(--line);
-  background: #eef2f6;
+  background: #0f141c;
 }
 
 .work-item-body {
@@ -520,11 +521,23 @@ section.resume-section {
   margin-bottom: 0.85rem;
 }
 
-.work-item-body .btn {
+.work-item-body .btn,
+.btn-outline-secondary {
   font-size: 1rem;
   font-weight: 700;
   border-radius: 2px;
   padding: 0.4rem 0.85rem;
+  color: var(--accent) !important;
+  border-color: #3d5a68 !important;
+  background: transparent !important;
+}
+
+.work-item-body .btn:hover,
+.btn-outline-secondary:hover {
+  color: #0b0f14 !important;
+  background: var(--accent) !important;
+  border-color: var(--accent) !important;
+  text-decoration: none;
 }
 
 .interest-text {
@@ -605,7 +618,7 @@ section.resume-section {
 }
 
 .detail-card {
-  background: var(--surface);
+  background: var(--surface-raised);
   border: 1px solid var(--line);
   padding: 1.6rem 1.25rem 1.9rem;
 }
@@ -660,7 +673,7 @@ section.resume-section {
 .detail-media {
   margin: 0 0 1.1rem;
   border: 1px solid var(--line);
-  background: #eef2f6;
+  background: #0f141c;
   overflow: hidden;
 }
 
