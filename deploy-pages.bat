@@ -7,7 +7,7 @@ git add index.html css/resume.css js/resume.js js/resume.min.js
 if errorlevel 1 goto fail
 
 echo === Creating commit ===
-git commit -m "Restore original resume style while keeping security fixes."
+git commit -m "Restyle site as a practical IT professional resume."
 if errorlevel 1 (
   echo No new commit created. Continuing to push...
 )
@@ -17,7 +17,7 @@ git push -u origin HEAD
 if errorlevel 1 goto fail
 
 echo.
-echo Done. Wait 1-3 minutes, then hard refresh:
+echo Done. Wait for GitHub Pages, then hard refresh:
 echo https://linyunjie.github.io/Linyuche.github.io/
 echo.
 pause
